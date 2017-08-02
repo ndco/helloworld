@@ -1,8 +1,7 @@
 .logo {
 	display: inline-block;
 	vertical-align: top;
-	height: 10%;
-	width: 10%;
+	width: 12%;
 }
 
 .navigation > a {
@@ -32,8 +31,8 @@ a:hover:not(.active) {
 }
 
 .socialmedia img {
-	width: 5%;
-	height: 5%;
+	width: 4%;
+	height: 4%;
 }
 
 .main {
@@ -63,13 +62,20 @@ a:hover:not(.active) {
 }
 
 /*style for gallary.html*/
+.myimages {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
 .myimages img {
-	display: inline-block;
-	margin: 0 auto;
-	width:500px;
+	width: 45%;
+	vertical-align: middle;
 	padding: 10px;
 }
 
+
+/*Style change for different view:*/
 @media (max-width: 767px) {
 	.logo {
 		height: 15%;
@@ -82,10 +88,10 @@ a:hover:not(.active) {
 	    font-size: 11.5px;
 	}
 
-/*	.socialmedia img {
+	.socialmedia img {
 	width: 5%;
 	height: 5%;
-	}*/
+	}
 
 	.myimages img {
 		display: block;
